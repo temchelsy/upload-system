@@ -34,7 +34,7 @@ class FileUploadProcessor extends EventEmitter {
     setTimeout(() => {
 
       this.emit('processing-completed');
-    }, 3000); 
+    }, 2000); 
   }
 }
 
